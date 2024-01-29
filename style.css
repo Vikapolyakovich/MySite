@@ -19,58 +19,65 @@ button {
     background-color: #FFF;
 }
 
+.center {
+    padding-left: calc(50% - 585px);
+    padding-right: calc(50% - 585px);
+}
+
 
 /* header */
 
 .header {
     padding-top: 40px;
     padding-bottom: 40px;
-    padding-left: 77px;
-    padding-right: 226px;
     margin-bottom: 42px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .header-link {
     color: #000;
-    font-family: Gilroy-Medium;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 
 .home {
     color: #F25822;
+    font-weight: 600;
+}
+
+.menu {
+    width: 687px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 
 /* top */
 
+.top-content {
+    display: flex;
+    justify-content: space-between;
+}
+
 .top-info {
+    width: 522px;
     padding-top: 60px;
     padding-bottom: 103px;
-    padding-left: 75px;
-    margin-right: 41px;
 }
 
 .title {
     margin-bottom: 17px;
     color: #000;
-    font-family: Gilroy-Bold;
     font-size: 60px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 
 .title-subtext {
-    margin-top: 0;
+    width: 466px;
     margin-bottom: 37px;
     color: #888;
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
 }
 
 .start-btn {
@@ -81,12 +88,24 @@ button {
     width: 140px;
     height: 50px;
     flex-shrink: 0;
-    margin-right: 72px;
+}
+
+.top-buttons {
+    display: flex;
+    gap: 27px;
+}
+
+.watch-btn {
+    background-image: url(images/icon-arrow.svg);
+    padding-left: 45px;
+    background-position: left center;
+    background-repeat: no-repeat;
 }
 
 .top-brands {
+    display: flex;
+    justify-content: center;
     padding-top: 97px;
     padding-bottom: 96px;
-    padding-left: 47px;
-    padding-right: 72px;
+    gap: 48px;
 }
